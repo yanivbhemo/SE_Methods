@@ -62,7 +62,10 @@ void MouseEventProc(MOUSE_EVENT_RECORD mer, int item_list[])
 #endif
     COORD mousePos = mer.dwMousePosition;
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
+    HANDLE hStdin = GetStdHandle(STD_INPUT_HANDLE);
     CONSOLE_SCREEN_BUFFER_INFO info;
+    LPVOID irInBuf[128]; 
+    DWORD len;
 	GetConsoleScreenBufferInfo(out, &info);
 
     switch(mer.dwEventFlags)
