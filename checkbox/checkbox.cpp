@@ -8,6 +8,13 @@ COORD MouseEventProc(MOUSE_EVENT_RECORD mer);
 
 Checkbox::Checkbox() { }
 
+Checkbox::Checkbox(std::string text, int left, int top) {
+    this->text = "[ ] " + text;
+    this->left = left;
+    this->top = top;
+    this->checked = false;
+}
+
 void Checkbox::setPosition(int left, int top) {
     this->left = left;
     this->top = top;
@@ -17,6 +24,13 @@ void Checkbox::setText(std::string text)
 {
     this->text = "[ ] " + text;
 }
+
+void Checkbox::setChecked(bool check)
+{
+    this->checked = check;
+}
+
+bool Checkbox::getChecked() { return this->checked; }
 
 int Checkbox::getLeft() { return this->left; }
 

@@ -4,35 +4,30 @@
 
 #define AMOUNT_OF_ITEMS 5
 
-void HandleClick(int item_list[]);
-void MouseEventProc(MOUSE_EVENT_RECORD mer, int item_list[]);
+void HandleClick(Checkbox item_list[]);
+void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox item_list[]);
 
 int main(int argc, char** argv){
     Label l;
     int label1_left = 0, label1_top = 0;
-    Checkbox c1,c2;
-    int c1_left = label1_left, c1_top = label1_top+1;
-    int c2_left = label1_left, c2_top = c1_top+1;
-    int item_list [AMOUNT_OF_ITEMS];
+    Checkbox c1("Option 1",label1_left,label1_top+1);
+    Checkbox c2("Option 2",label1_left,c1.getTop()+1);
+    Checkbox item_list [AMOUNT_OF_ITEMS];
 
     l.setText("Hello Checkbox");
     l.setPosition(label1_left, label1_top);
     l.draw();
-    c1.setText("Option 1");
-    c1.setPosition(c1_left, c1_top);
     c1.draw();
-    item_list[0] = c1_top;
-    c2.setText("Option 2");
-    c2.setPosition(c2_left, c2_top);
+    item_list[0] = c1;
     c2.draw();
-    item_list[1] = c2_top;
+    item_list[1] = c2;
     while(true){
         HandleClick(item_list);
     }
     return 0;
 }
 
-void HandleClick(int item_list[])
+void HandleClick(Checkbox item_list[])
 {
     HANDLE hStdin = GetStdHandle(STD_INPUT_HANDLE);
     DWORD cNumRead, i, fdwMode, fdwSaveOldMode;
@@ -42,7 +37,7 @@ void HandleClick(int item_list[])
     
     fdwMode = ENABLE_WINDOW_INPUT | ENABLE_MOUSE_INPUT; 
     SetConsoleMode(hStdin, fdwMode);
-    while(true){
+    //while(true){
         ReadConsoleInput( 
                     hStdin,      // input buffer handle 
                     irInBuf,     // buffer to read into 
@@ -52,10 +47,10 @@ void HandleClick(int item_list[])
         { 
             MouseEventProc(irInBuf[0].Event.MouseEvent, item_list); 
         }
-    }
+    //}
 }
 
-void MouseEventProc(MOUSE_EVENT_RECORD mer, int item_list[])
+void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox item_list[])
 {
 #ifndef MOUSE_HWHEELED
 #define MOUSE_HWHEELED 0x0008
@@ -73,7 +68,7 @@ void MouseEventProc(MOUSE_EVENT_RECORD mer, int item_list[])
         case 0:
             for(int i = 0; i < AMOUNT_OF_ITEMS; i++)
             {
-                if(mousePos.Y == item_list[i] && mousePos.X == 1){
+                if(mousePos.Y == item_list[i].getTop() && mousePos.X == 1){
                     SetConsoleCursorPosition(out, mousePos);
                     printf("X");
                     SetConsoleCursorPosition(out, info.dwCursorPosition);
@@ -86,7 +81,7 @@ void MouseEventProc(MOUSE_EVENT_RECORD mer, int item_list[])
         default:
             for(int i = 0; i < AMOUNT_OF_ITEMS; i++)
             {
-                if(mousePos.Y == item_list[i] && mousePos.X == 1){
+                if(mousePos.Y == item_list[i].getTop() && mousePos.X == 1){
                     SetConsoleCursorPosition(out, mousePos);
                     printf("X");
                     SetConsoleCursorPosition(out, info.dwCursorPosition);
