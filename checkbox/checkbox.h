@@ -15,4 +15,5 @@ class Checkbox
         int getTop();
         int getLeft();
         void draw();
+        void HandleClick();
 };
