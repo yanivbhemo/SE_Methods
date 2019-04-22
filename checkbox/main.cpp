@@ -1,10 +1,12 @@
 #include <windows.h>
 #include "label.h"
 #include "checkbox.h"
+#include <thread>         // std::this_thread::sleep_for
+#include <chrono>         // std::chrono::seconds
 
 #define AMOUNT_OF_ITEMS 5
 
-void HandleClick(Checkbox item_list[]);
+void HandleClick(Checkbox *item_list);
 void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox item_list[]);
 
 int main(int argc, char** argv){
@@ -22,12 +24,14 @@ int main(int argc, char** argv){
     c2.draw();
     item_list[1] = c2;
     while(true){
+        //printf("%d\n",item_list[0].getChecked());
         HandleClick(item_list);
+        //printf("%d\n",item_list[0].getChecked());
     }
     return 0;
 }
 
-void HandleClick(Checkbox item_list[])
+void HandleClick(Checkbox *item_list)
 {
     HANDLE hStdin = GetStdHandle(STD_INPUT_HANDLE);
     DWORD cNumRead, i, fdwMode, fdwSaveOldMode;
@@ -50,7 +54,7 @@ void HandleClick(Checkbox item_list[])
     //}
 }
 
-void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox item_list[])
+void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox *item_list)
 {
 #ifndef MOUSE_HWHEELED
 #define MOUSE_HWHEELED 0x0008
@@ -62,17 +66,28 @@ void MouseEventProc(MOUSE_EVENT_RECORD mer, Checkbox item_list[])
     LPVOID irInBuf[128]; 
     DWORD len;
 	GetConsoleScreenBufferInfo(out, &info);
-
+    item_list[0].setChecked(true);
     switch(mer.dwEventFlags)
     {
         case 0:
             for(int i = 0; i < AMOUNT_OF_ITEMS; i++)
             {
                 if(mousePos.Y == item_list[i].getTop() && mousePos.X == 1){
-                    SetConsoleCursorPosition(out, mousePos);
-                    printf("X");
-                    SetConsoleCursorPosition(out, info.dwCursorPosition);
-                    return;
+                    if(item_list[i].getChecked() == false){
+                        SetConsoleCursorPosition(out, mousePos);
+                        printf("X");
+                        item_list[i].setChecked(true);
+                        SetConsoleCursorPosition(out, info.dwCursorPosition);
+                        return;
+                    }
+                    else if(item_list[i].getChecked() == true)
+                    {
+                        SetConsoleCursorPosition(out, mousePos);
+                        printf(" ");
+                        item_list[i].setChecked(false);
+                        SetConsoleCursorPosition(out, info.dwCursorPosition);
+                        return;
+                    }
                 }
             } 
             break;
