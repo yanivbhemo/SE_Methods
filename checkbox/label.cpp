@@ -22,7 +22,7 @@ void Label::draw()
 {
     //windows console uses COORD structure to identify position inside the console
     COORD position = { left, top };
-    
+    COORD cursor_position = { left, top+1 };
     
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);\
 	CONSOLE_SCREEN_BUFFER_INFO info;
@@ -31,5 +31,5 @@ void Label::draw()
 	SetConsoleCursorPosition(out,position);
     std::cout << this->text;
     SetConsoleTextAttribute(out, info.wAttributes);
-	SetConsoleCursorPosition(out, info.dwCursorPosition);
+	SetConsoleCursorPosition(out, cursor_position);
 }

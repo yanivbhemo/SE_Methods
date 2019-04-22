@@ -1,14 +1,14 @@
 #include <string>
 
-class Label
+class Checkbox
 {
     private:
         std::string text;
         int left;
         int top;
-
+    
     public:
-        Label();
+        Checkbox();
         void setText(std::string);
         void setPosition(int, int);
         std::string getText();
