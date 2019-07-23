@@ -20,7 +20,7 @@ void EventEngine::run(Control &c)
 			_graphics.setCursorVisibility(false);
 			for (size_t z = 0; z < 5; ++z)
 			{
-				c.draw(_graphics, 0, 0, z);
+				c.draw(_graphics, c.getLeft(), c.getTop(), z);
 			}	
 			redraw = false;
 		}

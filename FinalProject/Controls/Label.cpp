@@ -1,7 +1,7 @@
 #include "Label.h"
 #include <iostream>
 
-Label::Label(string value) : Control(), value(value) {};
+Label::Label(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor, string value) : Control(left, top, width, height, border, textColor, backgroundColor), value(value) {};
 
 string Label::getValue()
 {

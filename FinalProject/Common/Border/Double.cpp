@@ -1,5 +1,3 @@
 #include "Double.h"
 
-Double::Double()  {
-    Border(0xc9, 0xbb, 0xc8, 0xbc, 0xcd, 0xba);
-}
+Double::Double() : Border('\xc9', '\xbb', '\xc8', '\xbc', '\xcd', '\xba') {}

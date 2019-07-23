@@ -1,5 +1,3 @@
 #include "None.h"
 
-None::None() {
-    Border(0x20, 0x20, 0x20, 0x20, 0x20, 0x20);
-}
+None::None() : Border('\x20', '\x20', '\x20', '\x20', '\x20', '\x20') {}

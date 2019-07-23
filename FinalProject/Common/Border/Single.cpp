@@ -1,5 +1,3 @@
 #include "Single.h"
 
-Single::Single() {
-    Border(0xda, 0xbf, 0xc0, 0xd9, 0xc4, 0xb3);
-}
+Single::Single() : Border('\xDA', '\xBF', '\xc0', '\xd9', '\xc4', '\xb3') {}

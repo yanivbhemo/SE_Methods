@@ -7,8 +7,7 @@ class Panel : public Control{
         vector <Control*> Controlers;
 
     public:
-        Panel();
-        Panel(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor);
+        Panel(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor) : Control(left, top, width, height, border, textColor, backgroundColor) {};
         ~Panel();
         void addToPanel(Control* controler);
         void draw(Graphics& g, int x, int y, size_t z);

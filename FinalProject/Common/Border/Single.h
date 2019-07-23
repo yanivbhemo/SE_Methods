@@ -2,7 +2,7 @@
 
 #include "Border.h"
 
-class Single : public Border{
+class Single : public Border {
     public:
         Single();
         ~Single() {};

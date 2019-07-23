@@ -21,7 +21,6 @@ protected:
 
 	
 public:
-	Control();
 	Control(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor);
 	static Control* getFocus() { return focused; };
 	static void setFocus(Control& control);
