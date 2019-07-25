@@ -3,6 +3,8 @@
 
 Control* Control::focused = nullptr;
 
+Control::Control() : left(0), top(0), width(1), height(1), textColor(Color::White), backgroundColor(Color::Black), border(new None) {};
+
 Control::Control(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor){
     this->left = left;
     this->top = top;
@@ -31,9 +33,5 @@ void Control::setFocus(Control& control){
 void Control::draw(Graphics& g, int x, int y, size_t z){
     g.setForeground(getTextColor());
     g.setBackground(getBackgroundColor());
-    ofstream myfile;
-    myfile.open ("example2.txt");
-    myfile << width << endl << height << endl << left << endl << top << endl;
-    myfile.close();
     border->drawBorder(g, left, top, width, height);
 }

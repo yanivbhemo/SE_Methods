@@ -1,7 +1,7 @@
 #include "Label.h"
 #include <iostream>
 
-Label::Label(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor, string value) : Control(left, top, width, height, border, textColor, backgroundColor), value(value) {};
+Label::Label(string value) : Control(), value(value) {}; 
 
 string Label::getValue()
 {
@@ -16,7 +16,8 @@ void Label::setValue(string value)
 
 void Label::draw(Graphics& g, int x, int y, size_t z)
 {
-    if (!z)
+    if (!z){
+        g.moveTo(x, y);
         g.write(value);
-
+    }
 }
