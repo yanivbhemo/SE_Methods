@@ -11,4 +11,10 @@ class Panel : public Control{
         ~Panel();
         void addToPanel(Control* controler);
         void draw(Graphics& g, int x, int y, size_t z);
+        virtual bool canGetFocus();
+        virtual void keyDown(int keyCode, char character);
+        virtual void mousePressed(int x, int y, bool isLeft);
+
+
+        void activateListener(int x, int y);
 };

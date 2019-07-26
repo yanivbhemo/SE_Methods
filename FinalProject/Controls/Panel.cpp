@@ -1,4 +1,6 @@
 #include "Panel.h"
+#include <fstream>
+#include <iostream>
 
 void Panel::addToPanel(Control* controler){
     if (controler != nullptr)
@@ -11,10 +13,13 @@ void Panel::draw(Graphics& g, int x, int y, size_t z){
         Control::draw(g, x, y, z);
         for (int index = 0; Controlers.size() > index; index++){
             controlerX = Controlers[index]->getLeft();
-            controlerY = Controlers[index]->getTop();
+            if (Controlers[index]->getTop() == 0)
+                controlerY = Controlers[index]->getTop() + index - 1;
+            else
+                controlerY = Controlers[index]->getTop();
             g.setBackground(Controlers[index]->getBackgroundColor());
             g.setForeground(Controlers[index]->getTextColor());
-            Controlers[index]->draw(g,controlerX + x + 2, controlerY + y + 2, z);
+            Controlers[index]->draw(g, controlerX + x + 1, controlerY + y + 1, z);
         }
     }
 }
@@ -25,4 +30,27 @@ Panel::~Panel(){
     }
 }
 
+bool Panel::canGetFocus(){
+    if (getFocus() != nullptr){
+        for (int i = 0; i < Controlers.size(); i++){
+            if (Controlers[i] == getFocus())
+                return true;
+        }
+    }
+    return false;
+}
 
+void Panel::mousePressed(int x, int y, bool isLeft){
+    if (canGetFocus())
+        getFocus()->mousePressed(x, y, isLeft);
+}
+
+void Panel::keyDown(int keyCode, char character){
+    if (canGetFocus())
+        getFocus()->keyDown(keyCode, character);
+}
+
+
+void Panel::activateListener(int x, int y){
+    mousePressed(x, y, true);
+}
