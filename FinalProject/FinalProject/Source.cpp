@@ -5,21 +5,37 @@
 #include "../Common/Border/Single.h"
 #include "../Common/EventEngine.h"
 #include "../Controls/Button.h"
+#include "../Controls/NumericBox.h"
 
 int main(int argc, char** argv)
 {
-	Border* d = new Double;
-	Label l("Hello World");
-	Border* s = new Single;
-	Panel p(0, 0, 30, 30, d, Color::White, Color::Red);
-	Panel p1(5, 5, 10, 10, s, Color::Cyan, Color::Purple);
-	Control& l2 = l;
-	Button plus("+");
+	Label lMain("Welcome to our AMA project");
+	Label l("I'm Panel");
+	Panel p(0, 0, 50, 30, new Double, Color::White, Color::Red);
+	l.setTop(0);
+	l.setLeft(38);
 
-	// p1.addToPanel(&l2);
+	Label l2("I'm another Panel");
+	Panel p1(5, 10, 20, 10, new Single, Color::Cyan, Color::Purple);
+
+	Button btn("I'm Button");
+	btn.setTop(3);
+	btn.setLeft(1);
+	btn.setBorder(new Single);
+
+	Label lNumeric("I'm Numeric Box");
+	NumericBox numeric(0, 10, 38, 6);
+	lNumeric.setLeft(33);
+	lNumeric.setTop(3);
+
+	p.addToPanel(&lMain);
+	p.addToPanel(&l);
+	p1.addToPanel(&l2);
 	p.addToPanel(&p1);
-	p.addToPanel(&l2);
-	p.addToPanel(&plus);
+	p.addToPanel(&btn);
+	p.addToPanel(&lNumeric);
+	p.addToPanel(&numeric);
+
 	EventEngine e;
 	e.run(p);
 }

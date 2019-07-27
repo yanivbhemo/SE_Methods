@@ -15,6 +15,5 @@ class Panel : public Control{
         virtual void keyDown(int keyCode, char character);
         virtual void mousePressed(int x, int y, bool isLeft);
 
-
-        void activateListener(int x, int y);
+        virtual void activateListener(int x, int y);
 };

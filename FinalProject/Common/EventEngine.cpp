@@ -1,5 +1,7 @@
 #include "EventEngine.h"
 #include <vector>
+#include <fstream>
+#include <string>
 #include <algorithm>
 using namespace std;
 
@@ -12,6 +14,9 @@ EventEngine::EventEngine(DWORD input, DWORD output)
 
 void EventEngine::run(Control &c)
 {
+	// ofstream myfile;
+	// myfile.open ("example.txt");
+
 	for (bool redraw = true;;)
 	{
 		if (redraw)
@@ -28,38 +33,52 @@ void EventEngine::run(Control &c)
 		INPUT_RECORD record;
 		DWORD count;
 		ReadConsoleInput(_console, &record, 1, &count);
+		
+		// myfile << to_string(record.EventType) << endl;
+		
 		switch (record.EventType)
 		{
-		case KEY_EVENT:
-		{
-			auto f = Control::getFocus();
-			if (f != nullptr && record.Event.KeyEvent.bKeyDown)
+			case KEY_EVENT:
 			{
-				auto code = record.Event.KeyEvent.wVirtualKeyCode;
-				auto chr = record.Event.KeyEvent.uChar.AsciiChar;
-				if (code == VK_TAB)
-					moveFocus(c, f);
-				else
-					f->keyDown(code, chr);
-				redraw = true;
+				// myfile << "keyboard" << endl;
+
+				auto f = Control::getFocus();
+				if (f != nullptr && record.Event.KeyEvent.bKeyDown)
+				{
+					auto code = record.Event.KeyEvent.wVirtualKeyCode;
+					auto chr = record.Event.KeyEvent.uChar.AsciiChar;
+
+					// myfile << code << endl;
+
+					if (code == VK_TAB)
+						moveFocus(c, f);
+					else
+						f->keyDown(code, chr);
+					redraw = true;
+				}
+				break;
 			}
-			break;
-		}
-		case MOUSE_EVENT:
-		{
-			auto button = record.Event.MouseEvent.dwButtonState;
-			auto coord = record.Event.MouseEvent.dwMousePosition;
-			auto x = coord.X - c.getLeft();
-			auto y = coord.Y - c.getTop();
-			if (button == FROM_LEFT_1ST_BUTTON_PRESSED || button == RIGHTMOST_BUTTON_PRESSED)
+			case MOUSE_EVENT:
 			{
-				c.mousePressed(x, y, button == FROM_LEFT_1ST_BUTTON_PRESSED);
-				redraw = true;
+				// myfile << "mouse" << endl;
+				
+				auto button = record.Event.MouseEvent.dwButtonState;
+				auto coord = record.Event.MouseEvent.dwMousePosition;
+				auto x = coord.X - c.getLeft();
+				auto y = coord.Y - c.getTop();
+				if (button == FROM_LEFT_1ST_BUTTON_PRESSED || button == RIGHTMOST_BUTTON_PRESSED)
+				{
+					c.mousePressed(x, y, button == FROM_LEFT_1ST_BUTTON_PRESSED);
+					redraw = true;
+				}
+				break;
 			}
-			break;
-		}
-		default:
-			break;
+			default:
+			{
+				// myfile << "switch" << endl;
+				break;
+			}
+			
 		}
 	}
 }

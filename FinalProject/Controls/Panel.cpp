@@ -13,10 +13,10 @@ void Panel::draw(Graphics& g, int x, int y, size_t z){
         Control::draw(g, x, y, z);
         for (int index = 0; Controlers.size() > index; index++){
             controlerX = Controlers[index]->getLeft();
-            if (Controlers[index]->getTop() == 0)
-                controlerY = Controlers[index]->getTop() + index - 1;
-            else
-                controlerY = Controlers[index]->getTop();
+            // if (Controlers[index]->getTop() == 0)
+            //     controlerY = Controlers[index]->getTop() + index - 1;
+            // else
+            controlerY = Controlers[index]->getTop();
             g.setBackground(Controlers[index]->getBackgroundColor());
             g.setForeground(Controlers[index]->getTextColor());
             Controlers[index]->draw(g, controlerX + x + 1, controlerY + y + 1, z);
@@ -42,7 +42,7 @@ bool Panel::canGetFocus(){
 
 void Panel::mousePressed(int x, int y, bool isLeft){
     if (canGetFocus())
-        getFocus()->mousePressed(x, y, isLeft);
+        getFocus()->mousePressed(x - this->getLeft(), y - this->getTop(), isLeft);
 }
 
 void Panel::keyDown(int keyCode, char character){
@@ -52,5 +52,9 @@ void Panel::keyDown(int keyCode, char character){
 
 
 void Panel::activateListener(int x, int y){
+    // ofstream myfile;
+    // myfile.open ("example.txt");
+    // myfile << "Writing this to a file.\n";
+    // myfile.close();
     mousePressed(x, y, true);
 }

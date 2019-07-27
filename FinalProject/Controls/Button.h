@@ -14,10 +14,12 @@ class Button : public Label {
         ~Button() {};
 
         void addListener(Listener* listner);
-        virtual void mousePressed(int x, int y, bool isLeft);
+        void mousePressed(int x, int y, bool isLeft);
 
         void setValue(string);
         string getValue();
         void draw(Graphics& g, int x, int y, size_t z);
+
+        // void setBorder(Border* newBorder);
         
 };

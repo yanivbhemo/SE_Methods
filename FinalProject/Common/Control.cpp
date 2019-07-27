@@ -21,22 +21,31 @@ Control::~Control(){
         delete border;
 }
 
-
-// void Control::setFocus(Control& control){
-//     if ((focused != &control) && (control.canGetFocus())){
-//         if (focused) focused->unFocus();
-//         else {
-//             focused = &control;
-//             focused->focus();
-//         }
-//     }
-// }
+void Control::setBorder(Border* newBorder) {
+    if (this->border)
+        delete this->border;
+    this->border = newBorder;
+}
 
 
 void Control::setFocus(Control& control){
-    if (focused != &control)
-        focused = &control;
+    if (focused == nullptr)
+        control.setFocus(control);
+    if ((focused != &control) && (control.canGetFocus())){
+        /* if (focused) */
+        focused->setFocus(control);
+        // else {
+        //     focused = &control;
+        //     focused->focus();
+        // }
+    }
 }
+
+
+// void Control::setFocus(Control& control){
+//     if (focused != &control)
+//         focused = &control;
+// }
 
 void Control::draw(Graphics& g, int x, int y, size_t z){
     g.setForeground(getTextColor());

@@ -2,6 +2,8 @@
 #include "Graphics.h"
 #include "./Border/Border.h"
 #include "Border/None.h"
+#include "Border/Single.h"
+#include "Border/Double.h"
 #include <vector>
 
 using namespace std;
@@ -27,6 +29,7 @@ public:
 	static Control* getFocus() { return focused; };
 	static void setFocus(Control& control);
 
+	void setBorder(Border* newBorder);
 
 	virtual short getLeft() { return left; }
 	virtual void setLeft(short left) { this->left = left; }

@@ -1,34 +1,36 @@
-// #include <string>
-// #include "Button.h"
+#include <string>
+#include "Button.h"
+#include "../Common/Border/Border.h"
+#include "Panel.h"
 
-// using namespace std;
+using namespace std;
 
-// class NumericBox : public Control, public Listener{
+class NumericBox : public Panel, public Listener{
 
-//     private: 
-//         Button inc;
-//         Button dec;
-//         Label value;
-//         int value;
-//         int minVal;
-//         int maxVal;
+    private: 
+        Button inc;
+        Button dec;
+        Label value;
+        int minVal, val, maxVal;
 
-//     public:
-//         NumericBox(int minVal, int maxVal);
-//         NumericBox();
+    public:
+        NumericBox(int minVal, int maxVal, short left, short top, short width = 5, short height = 3, Border* border = new Single, Color textColor = Color::White, Color backgroundColor = Color::Black);
+        // NumericBox(int minVal, int maxVal);
 
 
-//         void setMinVal(int value);
-//         void setMaxVal(int value);
-//         void setValue(int value);
-        
-//         int getMinVal();
-//         int getMaxVal();
-//         int getValue();
+        void setMinVal(int value) { this->minVal = value; };
+        int getMinVal() { return this->minVal; };
 
-//         void inc();
-//         void dec();
-//         void draw(Graphics& g, int x, int y, size_t z);
+        void setMaxVal(int value) { this->maxVal = value; };
+        int getMaxVal() { return this->maxVal; };
 
-//         void mousePressed(int x, int y, bool isLeft);
-// };
+        void setVal(int value) { this->val = value; };
+        int getVal() { return this->val; };
+
+        // void inc();
+        // void dec();
+        void draw(Graphics& g, int x, int y, size_t z);
+
+        void mousePressed(int x, int y, bool isLeft);
+        void activateListener(int x, int y);
+};

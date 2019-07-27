@@ -1,6 +1,7 @@
 #include "Button.h"
+#include <fstream>
 
-Button::Button(string value) : Label(value){};
+Button::Button(string value) : Label(value){ /* this->setHeight(3); */ };
 
 void Button::setValue(string value) { this->value = value; };
 
@@ -20,3 +21,7 @@ void Button::addListener(Listener* listener){
     if(listener != nullptr)
         Listeners.push_back(listener);
 }
+
+// void Button::setBorder(Border* newBorder){
+//     Control::setBorder(newBorder);
+// }
