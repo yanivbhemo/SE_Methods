@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../Panel/ListPanel.h"
-#include "../Button/ButtonItem.h"
+#include "ListPanel.h"
+#include "ButtonItem.h"
 
 class CheckList : public ListPanel
 {
