@@ -1,7 +1,9 @@
 #include "Label.h"
 #include <iostream>
 
-Label::Label(string value) : Control(), value(value) {}; 
+Label::Label(string value) : Control(), value(value) {
+    this->setWidth(value.length() + 1);
+}; 
 
 string Label::getValue()
 {

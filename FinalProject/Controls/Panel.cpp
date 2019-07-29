@@ -2,9 +2,19 @@
 #include <fstream>
 #include <iostream>
 
+void Panel::updateFocusedControler(Control* controler){
+    if(getFocus() == nullptr && controler->canGetFocus()){
+        setFocus(*controler);
+    }
+}
+
 void Panel::addToPanel(Control* controler){
     if (controler != nullptr)
         Controlers.push_back(controler);
+        try{
+            updateFocusedControler(controler); 
+        }
+        catch(...){}
 }
 
 void Panel::draw(Graphics& g, int x, int y, size_t z){
@@ -20,6 +30,7 @@ void Panel::draw(Graphics& g, int x, int y, size_t z){
             g.setBackground(Controlers[index]->getBackgroundColor());
             g.setForeground(Controlers[index]->getTextColor());
             Controlers[index]->draw(g, controlerX + x + 1, controlerY + y + 1, z);
+            // Controlers[index]->draw(g, controlerX + x, controlerY + y, z);
         }
     }
 }
@@ -30,31 +41,33 @@ Panel::~Panel(){
     }
 }
 
-bool Panel::canGetFocus(){
+int Panel::findFocusIndex(){
+    Control* tempFocus = getFocus();
     if (getFocus() != nullptr){
         for (int i = 0; i < Controlers.size(); i++){
-            if (Controlers[i] == getFocus())
-                return true;
+            if (Controlers[i] == tempFocus){
+                focusedControlCell = i;
+                return i;
+            }
+            else if(Controlers[i]->findFocusIndex() != -1){
+                focusedControlCell = i;
+                return i;
+            }
         }
     }
-    return false;
+    focusedControlCell = -1;
+    return -1;
 }
 
-void Panel::mousePressed(int x, int y, bool isLeft){
-    if (canGetFocus())
-        getFocus()->mousePressed(x - this->getLeft(), y - this->getTop(), isLeft);
+void Panel::mousePressed(int x, int y, bool isLeft){    
+    if(isInside(x,y, getLeft(), getTop(), getWidth(), getHeight())) {
+        if (findFocusIndex() != -1) {
+            Controlers[focusedControlCell]->mousePressed(x, y, isLeft);
+        }
+    }    
 }
 
 void Panel::keyDown(int keyCode, char character){
-    if (canGetFocus())
-        getFocus()->keyDown(keyCode, character);
-}
-
-
-void Panel::activateListener(int x, int y){
-    // ofstream myfile;
-    // myfile.open ("example.txt");
-    // myfile << "Writing this to a file.\n";
-    // myfile.close();
-    mousePressed(x, y, true);
+    if (findFocusIndex() != -1)
+        Controlers[focusedControlCell]->keyDown(keyCode, character);
 }

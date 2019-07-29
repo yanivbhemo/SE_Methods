@@ -21,10 +21,10 @@ int main(int argc, char** argv)
 	Button btn("I'm Button");
 	btn.setTop(3);
 	btn.setLeft(1);
-	btn.setBorder(new Single);
+	// btn.setBorder(new Single);
 
 	Label lNumeric("I'm Numeric Box");
-	NumericBox numeric(0, 10, 38, 6);
+	NumericBox numeric(0, 9, 38, 6);
 	lNumeric.setLeft(33);
 	lNumeric.setTop(3);
 
