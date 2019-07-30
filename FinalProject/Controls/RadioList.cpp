@@ -1,18 +1,13 @@
 #include "RadioList.h"
 #include <fstream>
 
-RadioList::RadioList(int left, int top, vector<Button> options) : Panel(left, top, 20, 12, new Single, Color::Black, Color::White),
-left(left),
-top(top)
+RadioList::RadioList(int left, int top, vector<string> options_lbl) : Panel(left, top, 20, 12, new Single, Color::Black, Color::White),
+left(left),top(top),options_lbl(options_lbl)
 {
-    options = options;
-    // for(int i=0; i<options.size(); i++){
-    //     this->options[i].setTop(top+i);
-    //     this->options[i].setLeft(left);
-    //     this->options[i].addListener(this);
-    //     this->addToPanel(&options[i]);
-    //     return;
-    // }
+    ofstream myfile;
+    // myfile.open ("example3.txt", std::ios_base::app);
+    // myfile << options_lbl[0] << endl;
+    // myfile.close();
 }
 
 void RadioList::draw(Graphics& g, int x, int y, size_t z) {
