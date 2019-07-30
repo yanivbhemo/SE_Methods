@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
 #include "string"
-#include "Listener.h"
+// #include "Listener.h"
 #include "Panel.h"
 #include "vector"
 #include "Label.h"
 #include "Button.h"
 
-class CheckList : public Panel {
+class CheckList : public Panel, public Listener {
     private:
         //string value;
         //vector <Listener*> Listeners;
@@ -27,4 +27,6 @@ class CheckList : public Panel {
         void draw(Graphics& g, int x, int y, size_t z);
         bool AddSelectedItem(string item);
         bool RemoveSelectedItem(string item);
+        void activateListener(int x, int y);
+        void mousePressed(int x, int y, bool isLeft);
 };
