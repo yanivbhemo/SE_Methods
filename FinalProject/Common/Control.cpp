@@ -3,7 +3,7 @@
 
 Control* Control::focused = nullptr;
 
-Control::Control() : left(0), top(0), width(1), height(1), textColor(Color::White), backgroundColor(Color::Black), border(new None) {};
+Control::Control() : left(0), top(0), width(1), height(1), textColor(Color::White), backgroundColor(Color::Black), border(new None), visible(true) {};
 
 Control::Control(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor){
     this->left = left;

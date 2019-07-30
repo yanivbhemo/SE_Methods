@@ -49,6 +49,7 @@ public:
 	virtual Color getBackgroundColor() { return backgroundColor; }
 	virtual void SetBackgroundColor(Color backgroundColor) { this->backgroundColor = backgroundColor; }
 	
+	virtual bool getVisability() { return visible; }
 	virtual void SetVisability(bool visibility) { this->visible = visibility; }
 
 	virtual void draw(Graphics& g, int x, int y, size_t z);
@@ -62,4 +63,3 @@ public:
 
 	~Control();
 };
-
