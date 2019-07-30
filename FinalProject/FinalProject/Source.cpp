@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 	ch1.AddSelectedItem("Option 55");
 	//ch1.RemoveSelectedItem("Option 2");
 
-	TextBox txt1(10,10,30);
+	//TextBox txt1(10,10,30);
 
 	p.addToPanel(&lMain);
 	p.addToPanel(&l);
@@ -51,7 +51,7 @@ int main(int argc, char** argv)
 	p.addToPanel(&lNumeric);
 	p.addToPanel(&numeric);
 	p.addToPanel(&ch1);
-	p.addToPanel(&txt1);
+	//p.addToPanel(&txt1);
 
 	EventEngine e;
 	e.run(p);
