@@ -19,6 +19,7 @@ class Button : public Label {
         void setValue(string);
         string getValue();
         void draw(Graphics& g, int x, int y, size_t z);
+
         // void setBorder(Border* newBorder);
         
 };

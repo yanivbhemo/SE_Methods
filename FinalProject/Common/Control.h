@@ -60,6 +60,5 @@ public:
 
 	virtual int findFocusIndex() { return -1; }
 
-
 	~Control();
 };

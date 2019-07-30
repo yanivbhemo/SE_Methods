@@ -42,58 +42,34 @@ Panel::~Panel(){
 }
 
 int Panel::findFocusIndex(){
-    // ofstream myfile;
-    // myfile.open ("findFocusIndex.txt", std::ios_base::app);
-    
     Control* tempFocus = getFocus();
-    // if (getFocus() != nullptr){
-        for (int i = 0; i < Controlers.size()-1; ++i){
+    if (getFocus() != nullptr){
+        for (int i = 0; i < Controlers.size(); i++){
             if (Controlers[i] == tempFocus){
                 focusedControlCell = i;
-                // setFocus(*Controlers[i]);
-                // myfile << "focusedControlCell " << i << endl;
                 return i;
             }
             else if(Controlers[i]->findFocusIndex() != -1){
                 focusedControlCell = i;
-                // setFocus(*Controlers[i]);
                 return i;
             }
         }
-    // }
+    }
     focusedControlCell = -1;
-    // myfile.close();
     return -1;
 }
 
 void Panel::mousePressed(int x, int y, bool isLeft){    
-    ofstream myfile;
-    myfile.open ("example1.txt");
-    myfile << x << " " << y << endl;
-    myfile << focusedControlCell << endl;
-    
-
     if(isInside(x,y, getLeft(), getTop(), getWidth(), getHeight())) {
-        
-        myfile << "in big if" << endl;
-
         if (getVisability()) {
-            myfile << "in small if == -1" << endl;
             for (int i = 0; i < Controlers.size(); i++) {
-                myfile << "in for" << endl;
                 Controlers[i]->mousePressed(x,y,isLeft);
             }
         }
-
         // else if (findFocusIndex() != -1) {
-
-        //     myfile << "in small if != -1" << endl << focusedControlCell << endl;
-        //     myfile << x << " " << y << endl;
-
         //     Controlers[focusedControlCell]->mousePressed(x, y, isLeft);
         // }
-    }
-    myfile.close();  
+    }    
 }
 
 void Panel::keyDown(int keyCode, char character){

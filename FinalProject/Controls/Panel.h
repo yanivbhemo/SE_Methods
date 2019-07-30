@@ -17,5 +17,6 @@ class Panel : public Control{
         virtual void mousePressed(int x, int y, bool isLeft);
         int findFocusIndex();
         void updateFocusedControler(Control* controler);
+        
         int getFocusedControlCell(){ return focusedControlCell; }
 };

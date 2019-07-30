@@ -3,17 +3,18 @@
 #include "../Common/Graphics.h"
 #include "../Controls/Label.h"
 #include "../Controls/Panel.h"
-#include "../Common/Border/Double.h"
-#include "../Common/Border/Single.h"
+#include "../Common/Border/Border.h"
 #include "../Common/EventEngine.h"
 #include "../Controls/Button.h"
 #include "../Controls/NumericBox.h"
+#include "../Controls/MessageBox.h"
 #include "../Controls/CheckList.h"
 #include "../Controls/TextBox.h"
 #include "../Controls/RadioList.h"
 
 int main(int argc, char** argv)
 {
+	
 	Label lMain("Welcome to our AMA project");
 	Label l("I'm Panel");
 	Panel p(0, 0, 80, 60, new Double, Color::White, Color::Red);
@@ -23,10 +24,14 @@ int main(int argc, char** argv)
 	Label l2("I'm another Panel");
 	Panel p1(5, 10, 20, 10, new Single, Color::Cyan, Color::Purple);
 
+	messageBox msg("Welcome to Message Box");
+	msg.SetVisability(true);
+	msg.setLeft(33);
+	msg.setTop(10);
+
 	Button btn("I'm Button");
 	btn.setTop(3);
 	btn.setLeft(1);
-	// btn.setBorder(new Single);
 
 	Label lNumeric("I'm Numeric Box");
 	NumericBox numeric(0, 9, 38, 6);
@@ -67,7 +72,9 @@ int main(int argc, char** argv)
 	p.addToPanel(&ch1);
 	p.addToPanel(&radioListlbl);
 	p.addToPanel(&rl1);
+	p.addToPanel(&msg);
 
 	EventEngine e;
+	// system("MODE x, y");
 	e.run(p);
 }
