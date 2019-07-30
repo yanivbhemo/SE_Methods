@@ -1,7 +1,7 @@
 #include "CheckList.h"
 #include <fstream>
 
-CheckList::CheckList(int left, int top, vector<string> options) : Panel(left, top, 20, 10, new Single, Color::Cyan, Color::Green),
+CheckList::CheckList(int left, int top, vector<string> options) : Panel(left, top, 20, 12, new Single, Color::Cyan, Color::Green),
 option_lbl1(options[0]),option_lbl2(options[1]),option_lbl3(options[2]),option_lbl4(options[3]),
 option_btn1("[ ]"),option_btn2("[ ]"),option_btn3("[ ]"),option_btn4("[ ]")
 {

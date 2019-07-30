@@ -55,6 +55,7 @@ int Panel::findFocusIndex(){
             }
             else if(Controlers[i]->findFocusIndex() != -1){
                 focusedControlCell = i;
+                myfile << "focusedControlCell " << i << endl;
                 return i;
             }
         }
