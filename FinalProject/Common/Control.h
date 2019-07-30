@@ -52,10 +52,12 @@ public:
 	virtual void SetVisability(bool visibility) { this->visible = visibility; }
 
 	virtual void draw(Graphics& g, int x, int y, size_t z);
-	virtual void mousePressed(int x, int y, bool isLeft) {};
-	virtual void keyDown(int keyCode, char charecter) {};
-	virtual void getAllControls(vector<Control*>* controls) {};
-	virtual bool canGetFocus() { return false; };
+	virtual void mousePressed(int x, int y, bool isLeft) {}
+	virtual void keyDown(int keyCode, char charecter) {}
+	virtual void getAllControls(vector<Control*>* controls) {}
+	virtual bool canGetFocus() { return false; }
+
+	virtual int findFocusIndex() { return -1; }
 
 
 	~Control();
