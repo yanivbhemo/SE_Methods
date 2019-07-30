@@ -1,0 +1,684 @@
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 29
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 54 y 16
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 65 y 13
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 12
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 55 y 17
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 62 y 15
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 16
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 37 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 34
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 41 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 19
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 21
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 21
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 35 y 23
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 35 y 20
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 35 y 26
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+options pos - x 33 y 22
+4
+Mouse pos - x 38 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 37 y 22
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 37 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 38 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 26
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 35
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 21
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 20
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 19
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 44
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+4
+Mouse pos - x 39 y 23
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 26
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 31
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 41 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 40 y 23
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26

@@ -36,23 +36,23 @@ int main(int argc, char** argv)
 	Label checkListlbl("Check List:");
 	checkListlbl.setLeft(4);
 	checkListlbl.setTop(20);
-	// vector<string> options;
-	// options.push_back("Option 1");
-	// options.push_back("Option 2");
-	// options.push_back("Option 3");
-	// options.push_back("Option 4");
-	// CheckList ch1(5, 22, options);
-	// ch1.AddSelectedItem("Option 55");
+	vector<string> options;
+	options.push_back("Option 1");
+	options.push_back("Option 2");
+	options.push_back("Option 3");
+	options.push_back("Option 4");
+	CheckList ch1(5, 22, options);
+	ch1.AddSelectedItem("Option 55");
 
 	Label radioListlbl("Radio List:");
 	radioListlbl.setLeft(32);
 	radioListlbl.setTop(20);
-	// vector<string> radio_list_options;
-	// radio_list_options.push_back("() Radio 1");
-	// radio_list_options.push_back("() Radio 2");
-	// radio_list_options.push_back("() Radio 3");
-	// radio_list_options.push_back("() Radio 4");
-	// RadioList rl1(33, 22, radio_list_options);
+	vector<string> radio_list_options;
+	radio_list_options.push_back("() Radio 1");
+	radio_list_options.push_back("() Radio 2");
+	radio_list_options.push_back("() Radio 3");
+	radio_list_options.push_back("() Radio 4");
+	RadioList rl1(33, 22, radio_list_options);
 
 	//TextBox txt1(10,10,30);
 
@@ -64,9 +64,9 @@ int main(int argc, char** argv)
 	p.addToPanel(&lNumeric);
 	p.addToPanel(&numeric);
 	p.addToPanel(&checkListlbl);
-	// p.addToPanel(&ch1);
+	p.addToPanel(&ch1);
 	p.addToPanel(&radioListlbl);
-	// p.addToPanel(&rl1);
+	p.addToPanel(&rl1);
 
 	EventEngine e;
 	e.run(p);
