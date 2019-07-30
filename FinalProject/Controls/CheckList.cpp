@@ -74,7 +74,7 @@ bool CheckList::RemoveSelectedItem(string item){
 void CheckList::mousePressed(int x, int y, bool isLeft)
 {
     ofstream myfile;
-    myfile.open ("example1.txt", std::ios_base::app);
+    myfile.open ("example3.txt", std::ios_base::app);
     myfile << x << " " << y << endl;
     myfile.close();
 }

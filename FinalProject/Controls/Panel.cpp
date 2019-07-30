@@ -42,11 +42,15 @@ Panel::~Panel(){
 }
 
 int Panel::findFocusIndex(){
+    ofstream myfile;
+    myfile.open ("findFocusIndex.txt", std::ios_base::app);
+    
     Control* tempFocus = getFocus();
     if (getFocus() != nullptr){
         for (int i = 0; i < Controlers.size(); i++){
             if (Controlers[i] == tempFocus){
                 focusedControlCell = i;
+                myfile << "focusedControlCell " << i << endl;
                 return i;
             }
             else if(Controlers[i]->findFocusIndex() != -1){
@@ -56,10 +60,17 @@ int Panel::findFocusIndex(){
         }
     }
     focusedControlCell = -1;
+    myfile.close();
     return -1;
 }
 
 void Panel::mousePressed(int x, int y, bool isLeft){    
+    ofstream myfile;
+    myfile.open ("example1.txt", std::ios_base::app);
+    myfile << x << " " << y << endl;
+    myfile << focusedControlCell << endl;
+    myfile.close();
+
     if(isInside(x,y, getLeft(), getTop(), getWidth(), getHeight())) {
         if (findFocusIndex() != -1) {
             Controlers[focusedControlCell]->mousePressed(x, y, isLeft);
