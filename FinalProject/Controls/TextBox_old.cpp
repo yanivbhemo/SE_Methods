@@ -2,7 +2,7 @@
 
 const int CONSTANT = CONSTANT;
 
-TextBox::TextBox(int width) : Control(width) , curserPosition(){}
+TextBox::TextBox(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor) : Control(left,top,width,height,border,textColor,backgroundColor) , curserPosition(){}
 
 void TextBox::setValue(string _value) {
 	value = _value.substr(0, getWidth() - CONSTANT);
@@ -14,13 +14,13 @@ string TextBox::getValue() {
 }
 
 void TextBox::draw(Graphics& g, int x, int y, size_t layer) {
-	if (getLayer() != layer) 
+	if (0 != layer) 
 		return;
 
 	Control::draw(g, x, y, layer);
 
-	g.setBackground(g.convertToColor(getBackGround()));
-	g.setForeground(g.convertToColor(getForeground()));
+	g.setBackground(Color::Orange);
+	g.setForeground(Color::Black);
 
 	string toPrint = value.substr(0, getWidth() - CONSTANT);
 
@@ -28,13 +28,13 @@ void TextBox::draw(Graphics& g, int x, int y, size_t layer) {
 		toPrint = toPrint + string(getWidth() - CONSTANT - toPrint.length(), ' ');
 	}
 
-	g.write(getBodyLeft(), getBodyTop(), toPrint);
+	g.write(getLeft(), getTop(), toPrint);
 
-	if (isFocus()) {
+	if (canGetFocus()) {
 		if(Control::getFocus() == this) g.setCursorVisibility(true);
 	} 
 
-	g.resetColors();
+	// g.resetColors();
 }
 
 int TextBox::getCurserPosition() {
@@ -82,20 +82,20 @@ void TextBox::mousePressed(short x, short y, bool b){
 
 
 void TextBox::moveRight(){
-	int x = getBodyLeft() + getWidth();
-	if (getBodyLeft() + curserPosition > getBodyLeft() +  getWidth() - 3) return;
+	int x = getLeft() + getWidth();
+	if (getLeft() + curserPosition > getLeft() +  getWidth() - 3) return;
 	curserPosition++;
 }
 
 void TextBox::moveCurser(Graphics g) {
 	if (getCurserPosition() > getWidth() - CONSTANT) {
-		g.moveTo(getBodyLeft() + getCurserPosition() - CONSTANT, getBodyTop());
+		g.moveTo(getLeft() + getCurserPosition() - CONSTANT, getTop());
 	}
 	else if (curserPosition == 1) {
-		g.moveTo(getBodyLeft(), getBodyTop());
+		g.moveTo(getLeft(), getTop());
 	}
 	else {
-		g.moveTo(getBodyLeft() + getCurserPosition() - 1, getBodyTop());
+		g.moveTo(getLeft() + getCurserPosition() - 1, getTop());
 	}
 }
 
@@ -136,6 +136,3 @@ void TextBox::addCharecter(CHAR c){
 	else value.insert(curserPosition - 1, 1, c);
 	moveRight();
 }
-
-
-TextBox::~TextBox() {}

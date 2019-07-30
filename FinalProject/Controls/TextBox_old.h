@@ -1,6 +1,5 @@
-#pragma once
-
-#include "../Control/Control.h"
+#include "../Common/Control.h"
+#include <iostream>
 
 class TextBox : public Control
 {
@@ -15,7 +14,7 @@ class TextBox : public Control
 	void addCharecter(CHAR c);
 
 public:
-	TextBox(int width);
+	TextBox(short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor);
 	void setValue(string value);
 	string getValue();
 	void draw(Graphics &graphics, int, int, size_t);
@@ -23,6 +22,5 @@ public:
 	void mousePressed(short, short, bool);
 	int getCurserPosition();
 	void moveCurser(Graphics);
-	~TextBox();
 };
 
