@@ -32,7 +32,7 @@ C++
 <img src="/FinalProject/images/label.jpeg" width="344px"/>
 
 **Button** <br>
-<img src="/FinalProject/images/Button.jpeg" width="344px"/>
+<img src="/FinalProject/images/Button.jpeg" width="144px"/>
 
 **MessageBox** <br>
 <img src="/FinalProject/images/messageBox.jpeg" width="344px"/>
@@ -44,4 +44,4 @@ C++
 <img src="/FinalProject/images/checkList.jpeg" width="344px"/>
 
 **NumericBox** - Use the mouse to click + / - and change the numer value <br>
-<img src="/FinalProject/images/numericBox.jpeg" width="344px"/>
+<img src="/FinalProject/images/numericBox.jpeg" width="144px"/>
