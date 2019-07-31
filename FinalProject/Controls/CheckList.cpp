@@ -36,15 +36,13 @@ void CheckList::keyDown(int keyCode, char character)
 
 void CheckList::mousePressed(int x, int y, bool isLeft)
 {
-    ofstream myfile;
-    myfile.open ("mousePressed.txt", std::ios_base::app);
-    myfile << "mouse x: " << x << " mouse y: " << y << endl;
-    for(int i=0; i < options_pos.size(); i++){
-        myfile << "options pos x: " << options_pos[i].x << " options pos y: " << y << endl;
-        if(x >= options_pos[i].x && x <= options_pos[i].x + 10 && y >= options_pos[i].y && isLeft == true)
-        {
-            //ClearSelection();
-            AddSelectedItem(i);
+    if (!Control::lockEvent){
+        for(int i=0; i < options_pos.size(); i++){
+            if(x >= options_pos[i].x && x <= options_pos[i].x + 10 && y >= options_pos[i].y && isLeft == true)
+            {
+                //ClearSelection();
+                AddSelectedItem(i);
+            }
         }
     }
 }

@@ -37,11 +37,13 @@ void RadioList::keyDown(int keyCode, char character)
 
 void RadioList::mousePressed(int x, int y, bool isLeft)
 {
-    for(int i=0; i < options_pos.size(); i++){
-        if(x >= options_pos[i].x && x <= options_pos[i].x + 10 && y >= options_pos[i].y && isLeft == true)
-        {
-            ClearSelection();
-            SelectedItem(i);
+    if (!Control::lockEvent){
+        for(int i=0; i < options_pos.size(); i++){
+            if(x >= options_pos[i].x && x <= options_pos[i].x + 10 && y >= options_pos[i].y && isLeft == true)
+            {
+                ClearSelection();
+                SelectedItem(i);
+            }
         }
     }
 }
