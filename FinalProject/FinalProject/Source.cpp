@@ -41,13 +41,13 @@ int main(int argc, char** argv)
 	Label checkListlbl("Check List:");
 	checkListlbl.setLeft(4);
 	checkListlbl.setTop(20);
-	vector<string> options;
-	options.push_back("Option 1");
-	options.push_back("Option 2");
-	options.push_back("Option 3");
-	options.push_back("Option 4");
-	CheckList ch1(5, 22, options);
-	ch1.AddSelectedItem("Option 55");
+	vector<string> check_list_options;
+	check_list_options.push_back("[ ] Option 1");
+	check_list_options.push_back("[ ] Option 2");
+	check_list_options.push_back("[ ] Option 3");
+	check_list_options.push_back("[ ] Option 4");
+	CheckList ch1(5, 22, check_list_options);
+	//ch1.AddSelectedItem("Option 55");
 
 	Label radioListlbl("Radio List:");
 	radioListlbl.setLeft(32);

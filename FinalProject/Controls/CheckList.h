@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include "string"
 #include "Panel.h"
@@ -6,26 +5,22 @@
 #include "Label.h"
 #include "Button.h"
 
+struct position_s {short x; short y; };
+
 class CheckList : public Panel, public Listener {
     private:
-        //string value;
-        //vector <Listener*> Listeners;
-        int num_of_items;
         int left, top;
-        Button option_btn1,option_btn2,option_btn3,option_btn4;
-        Label option_lbl1;
-        Label option_lbl2;
-        Label option_lbl3;
-        Label option_lbl4;
-        vector<Label> lbl_arr;
-        vector<Button> btn_arr;
-        vector<string> options;
+        vector<Button> options;
+        vector<string> options_lbl;
+        vector<position_s> options_pos;
+        int selectedItem = 0;
 
     public:
-        CheckList(int left, int top, vector<string> options);
+        CheckList(int left, int top, vector<string> options_lbl);
         void draw(Graphics& g, int x, int y, size_t z);
-        bool AddSelectedItem(string item);
-        bool RemoveSelectedItem(string item);
-        void activateListener(int x, int y);
+        void keyDown(int keyCode, char character);
         void mousePressed(int x, int y, bool isLeft);
+        void activateListener(int x, int y);
+        bool AddSelectedItem(int index);
+        bool ClearSelection();
 };

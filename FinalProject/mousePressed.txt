@@ -1,786 +1,268 @@
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 29
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 54 y 16
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 65 y 13
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 12
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 55 y 17
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 62 y 15
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 16
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 37 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 34
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 41 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 19
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 21
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 21
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 35 y 23
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 35 y 20
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 35 y 26
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-options pos - x 33 y 22
-4
-Mouse pos - x 38 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 37 y 22
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 37 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 38 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 26
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 35
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 21
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 20
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 19
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 44
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-4
-Mouse pos - x 39 y 23
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 26
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 31
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 41 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 40 y 23
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 35 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 35 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 34 y 26
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 34 y 22
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 34 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 34 y 23
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 37 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 38 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 38 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 37 y 26
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 40 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 37 y 24
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 25
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 39 y 26
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
-4
-Mouse pos - x 43 y 7
-options pos - x 33 y 23
-options pos - x 33 y 24
-options pos - x 33 y 25
-options pos - x 33 y 26
+mouse x: 40mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 13mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 23
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 25
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 21
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11mouse y: 24
+options pos x: 5options pos y: 23
+options pos x: 5options pos y: 24
+options pos x: 5options pos y: 25
+options pos x: 5options pos y: 26
+mouse x: 11 mouse y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 15 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 17 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 17 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 17 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 17 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 8 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 11 mouse y: 25
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 15 mouse y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 14 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 38 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 38 mouse y: 25
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 39 mouse y: 26
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 42 mouse y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 26
+mouse x: 14 mouse y: 24
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 24
+mouse x: 39 mouse y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+mouse x: 38 mouse y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+mouse x: 38 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 13 mouse y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23
+mouse x: 13 mouse y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+mouse x: 13 mouse y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+options pos x: 5 options pos y: 25
+mouse x: 13 mouse y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+options pos x: 5 options pos y: 24
+mouse x: 13 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 12 mouse y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+options pos x: 5 options pos y: 26
+mouse x: 41 mouse y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23
+options pos x: 5 options pos y: 23

@@ -27,6 +27,14 @@ void RadioList::draw(Graphics& g, int x, int y, size_t z) {
         Panel::draw(g, x-1, y-1, z);
 }
 
+void RadioList::keyDown(int keyCode, char character)
+{
+    ofstream myfile;
+    myfile.open ("keyDown.txt", std::ios_base::app);
+    myfile << "test" << endl;
+    myfile.close();
+}
+
 void RadioList::mousePressed(int x, int y, bool isLeft)
 {
     for(int i=0; i < options_pos.size(); i++){
