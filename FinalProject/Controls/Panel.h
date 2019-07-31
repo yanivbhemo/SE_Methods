@@ -19,4 +19,6 @@ class Panel : public Control{
         void updateFocusedControler(Control* controler);
         
         int getFocusedControlCell(){ return focusedControlCell; }
+
+        void getAllControls(vector<Control*>* controls);
 };
