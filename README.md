@@ -22,26 +22,26 @@ C++
 
 # Controls Specification
 
-**AMA Final Project**
+**AMA Final Project** <br>
 <img src="/FinalProject/images/amaProject.jpeg" width="344px"/>
 
-**Panel**
+**Panel** <br>
 <img src="/FinalProject/images/panel.jpeg" width="344px"/>
 
-**Label**
+**Label** <br>
 <img src="/FinalProject/images/label.jpeg" width="344px"/>
 
-**Button**
+**Button** <br>
 <img src="/FinalProject/images/Button.jpeg" width="344px"/>
 
-**MessageBox**
+**MessageBox** <br>
 <img src="/FinalProject/images/messageBox.jpeg" width="344px"/>
 
-**RadioBox**
+**RadioBox** <br>
 <img src="/FinalProject/images/radioList.jpeg" width="344px"/>
 
-**CheckList**
+**CheckList** <br>
 <img src="/FinalProject/images/checkList.jpeg" width="344px"/>
 
-**NumericBox** - Use the mouse to click + / - and change the numer value
+**NumericBox** - Use the mouse to click + / - and change the numer value <br>
 <img src="/FinalProject/images/numericBox.jpeg" width="344px"/>
