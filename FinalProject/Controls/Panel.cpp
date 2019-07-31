@@ -76,4 +76,5 @@ void Panel::getAllControls(vector<Control*>* controls) {
     for(int i = 0; i < this->Controlers.size(); ++i) {
         controls->push_back(this->Controlers[i]);
         this->Controlers[i]->getAllControls(controls);
+    }
 }
