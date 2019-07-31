@@ -2,7 +2,7 @@
 #include "../Common/Control.h"
 #include "vector"
 
-class Panel : public Control{
+class Panel : public Control {
     protected:
         vector <Control*> Controlers;
         int focusedControlCell;

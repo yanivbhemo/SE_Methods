@@ -1,6 +1,4 @@
 #include "NumericBox.h"
-#include <fstream>
-#include <string>
 
 NumericBox::NumericBox
     (int minVal, int maxVal, short left, short top, short width, short height, Border* border, Color textColor, Color backgroundColor) :
@@ -9,21 +7,19 @@ NumericBox::NumericBox
     dec(Button("-")),
     minVal(minVal),
     maxVal(maxVal),
-    value(Label(std::to_string(minVal)))
-{
-    val = this->getMinVal();
-    value.setLeft(this->dec.getValue().length() + 2);
-    inc.setLeft(to_string(maxVal).length() + 1 + 2);
-    this->setWidth(inc.getLeft() + 1);
-    this->inc.addListener(this);
-    this->dec.addListener(this);
-    this->addToPanel(&dec);
-    this->addToPanel(&value);
-    this->addToPanel(&inc);
+    value(Label(std::to_string(minVal))) {
+        val = this->getMinVal();
+        value.setLeft(this->dec.getValue().length() + 2);
+        inc.setLeft(to_string(maxVal).length() + 1 + 2);
+        this->setWidth(inc.getLeft() + 1);
+        this->inc.addListener(this);
+        this->dec.addListener(this);
+        this->addToPanel(&dec);
+        this->addToPanel(&value);
+        this->addToPanel(&inc);
 }
 
 void NumericBox::draw(Graphics& g, int x, int y, size_t z) {
-    int controlerX, controlerY;
     if (!z)
         Panel::draw(g, x-1, y-1, z);
 }
@@ -42,10 +38,12 @@ void NumericBox::activateListener(int x, int y){
 }
 
 void NumericBox::mousePressed(int x, int y, bool isLeft){
-    if (isInside(x,y, getLeft() + inc.getLeft() + 1, getTop() + inc.getTop() + 1, getWidth() + inc.getWidth(), getHeight() + inc.getHeight())){
-        inc.mousePressed(x, y, isLeft);
-    }
-    else if (isInside(x,y, getLeft() + dec.getLeft() + 1, getTop() + dec.getTop() + 1, getWidth() + dec.getWidth(), getHeight() + dec.getHeight())){
-        dec.mousePressed(x, y, isLeft);
+    if (!Control::lockEvent){
+        if (isInside(x,y, getLeft() + inc.getLeft() + 1, getTop() + inc.getTop() + 1, getWidth() + inc.getWidth(), getHeight() + inc.getHeight())){
+            inc.mousePressed(x, y, isLeft);
+        }
+        else if (isInside(x,y, getLeft() + dec.getLeft() + 1, getTop() + dec.getTop() + 1, getWidth() + dec.getWidth(), getHeight() + dec.getHeight())){
+            dec.mousePressed(x, y, isLeft);
+        }
     }
 }

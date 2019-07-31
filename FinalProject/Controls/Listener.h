@@ -1,5 +1,6 @@
 #pragma once
-class Listener{
+
+class Listener {
     public:
-    virtual void activateListener(int x, int y) = 0; 
+        virtual void activateListener(int x, int y) = 0; 
 };

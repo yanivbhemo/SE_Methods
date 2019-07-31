@@ -11,7 +11,7 @@ class Button : public Label {
 
     public:
         Button(string value);
-        ~Button() {};
+        ~Button() {}
 
         void addListener(Listener* listner);
         void mousePressed(int x, int y, bool isLeft);
@@ -19,7 +19,4 @@ class Button : public Label {
         void setValue(string);
         string getValue();
         void draw(Graphics& g, int x, int y, size_t z);
-
-        // void setBorder(Border* newBorder);
-        
 };

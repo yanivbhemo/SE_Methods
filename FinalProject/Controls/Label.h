@@ -2,11 +2,9 @@
 #include "../Common/Control.h"
 #include <string>
 
-
 using namespace std;
 
-class Label: public Control
-{   
+class Label: public Control {   
     private:
         string value;
     public:
@@ -14,5 +12,5 @@ class Label: public Control
         string getValue();
         void setValue(string);
         void draw(Graphics& g, int x, int y, size_t z);
-        virtual bool canGetFocus() { return true; };
+        virtual bool canGetFocus() { return true; }
 };
