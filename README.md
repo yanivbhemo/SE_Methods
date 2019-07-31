@@ -23,7 +23,7 @@ C++
 # Controls Specification
 
 **AMA Final Project** <br>
-<img src="/FinalProject/images/amaProject.jpeg" width="344px"/>
+<img src="/FinalProject/images/amaProject.jpeg" width="500px"/>
 
 **Panel** <br>
 <img src="/FinalProject/images/panel.jpeg" width="344px"/>
