@@ -29,19 +29,13 @@ void RadioList::draw(Graphics& g, int x, int y, size_t z) {
 
 void RadioList::mousePressed(int x, int y, bool isLeft)
 {
-    ofstream myfile;
-    myfile.open ("mousePressed.txt", std::ios_base::app);
-    myfile << options_pos.size() << endl;
-    myfile << "Mouse pos - x " << x << " y " << y << endl;
     for(int i=0; i < options_pos.size(); i++){
-        myfile << "options pos - x " << std::to_string(options_pos[i].x) << " y " << std::to_string(options_pos[i].y) << endl;
         if(x >= options_pos[i].x && x <= options_pos[i].x + 10 && y >= options_pos[i].y && isLeft == true)
         {
             ClearSelection();
             SelectedItem(i);
         }
     }
-    myfile.close();
 }
 
 void RadioList::activateListener(int x, int y)

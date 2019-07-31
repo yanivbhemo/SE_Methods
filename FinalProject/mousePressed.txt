@@ -682,3 +682,105 @@ options pos - x 33 y 23
 options pos - x 33 y 24
 options pos - x 33 y 25
 options pos - x 33 y 26
+4
+Mouse pos - x 35 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 35 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 34 y 26
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 34 y 22
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 34 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 34 y 23
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 37 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 38 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 38 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 37 y 26
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 40 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 37 y 24
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 25
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 39 y 26
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
+4
+Mouse pos - x 43 y 7
+options pos - x 33 y 23
+options pos - x 33 y 24
+options pos - x 33 y 25
+options pos - x 33 y 26
